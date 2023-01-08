@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+/* Header styles */
+.header img{
+  width: 100%;
+  position: relative;
+}
+.header-content{
+    position: absolute;
+   text-align: right;
+   margin-left: 1200px;
+   margin-top: -700px;
+   margin-right: 230px;
+}
+.header-title{
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    color: white;
+}
+.header-description{
+    margin-top: 24px;
+    margin-bottom: 32px;
+    font-weight: 400;
+    font-size: 16px;
+    color:white;
+}
+.btn-contact{
+    padding: 20px 25px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #005FAC;
+    border-radius: 5px;
+    border: 0;
+}
+
+/* Failure Section */
+.failure{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.failure-container{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.failure-title{
+    font-weight: 700;
+    font-size: 40px;
+}
+.failure-description{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.failure-list p{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
